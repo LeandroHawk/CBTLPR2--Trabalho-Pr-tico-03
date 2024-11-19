@@ -83,7 +83,6 @@ public class Calculadora extends JFrame {
                 // Captura qualquer outra exceção não prevista
                 JOptionPane.showMessageDialog(null, "Ocorreu um erro: " + ex.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
             } finally {
-                // Código que será sempre executado após o try e o catch
                 System.out.println("Execução do cálculo finalizada.");
             }
         }
